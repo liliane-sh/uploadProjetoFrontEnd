@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO ALURA</title>
+    <link rel="stylesheet" href="contato.css">
+    
+</head>
+    <body>
+        <header class="cabeçalho">
+           <div class="caixa">
+             <nav>
+              <h1><img src="logo.png" alt="logo"></h1>
+             </nav>
+           </div>
+       </header>   
+         <main>
+         <form>
+             <label for="nomesobrenome">NOME E SOBRENOME</label>
+             <input type="text" id=nomesobrenome class="input-padrão"> 
+
+             <label for="telefone">TELEFONE</label>
+             <input type="text" id=telefone class="input-padrão">
+
+             <label for="email">EMAIL</label>
+             <input type="text" id=email class="input-padrão">
+
+             <label for= "mensagem" class="mensagem">Mensagem</label>
+             <textarea cols="70" rows="10" id="mensagem"></textarea>
+
+             <div>
+
+                <p>Como prefere o nosso contato?</p>
+
+                <label for="radio-email"><input type="radio" name="contato" value="email" 
+                    id="radio-email">Email</label>
+                
+                
+                <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    Telefone</label>
+               
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                    WhatsApp</label>
+                
+
+            </div>
+
+            <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+
+             <input type="submit" value= Enviar >
+         </form>
+     </main>   
+     <footer>
+            <img src="logo-branco.png" alt="">
+            <p class="cor">&copy; Copyright Barbearia Alura - 2019</p>
+     </footer>
+        
+    </body>
+    </html>

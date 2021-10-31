@@ -1,0 +1,51 @@
+.cabeçalho{
+    background: darkgray;
+    padding: 20px 0;
+}
+
+.caixa{position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer {text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.cor{color: white;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+main {
+width: 940px;
+margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+ }
+
+.form-padrao {
+    margin: 0 0 20px;
+    display: block;
+    padding: 10px 25px;
+    width: 50%;
+    }
+
+    .mensagem{
+        margin: 20px 0;
+    }
+
+    .checkbox {
+        margin: 20px;
+     }
